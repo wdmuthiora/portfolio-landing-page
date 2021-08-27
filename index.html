@@ -5,7 +5,7 @@
   <title>Portfolio Landing Page</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="/css/styles.css">
+  <link rel="stylesheet" type="text/css" href="./css/styles.css">
 </head>
 
 <body>
@@ -13,12 +13,23 @@
   <div class="container">
 
     <div class="nav">
-      <div class="col-md-6">
+      <div class="col-md-12">
         <div class="jumbotron">
           <h1>Navigation bar goes here</h1>
-          <p>Sed finibus sapien luctus pretium interdum. Etiam accumsan nibh neque. Integer congue magna orci, vitae
-            suscipit mi tincidunt quis. Suspendisse fringilla, orci eu aliquet ultricies, libero ipsum maximus massa, et
-            mollis leo massa sed felis. Suspendisse molestie elit non mollis gravida.</p>
+          <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Active</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
@@ -26,11 +37,14 @@
 
     <div class="row">
       <div class="col-md-7">
+        <h1>DENNIS MUTHIORA</h1>
+        <p>Welcome to my Portfolio site. I am a technology enthusiast, and a student of life.</p>
         <p>Text with brief personal summary</p>
       </div>
 
       <div class="col-md-5">
         <p>Place the image here, with rounded boundaries here</p>
+        <img src="./images/575x400-02.jpg" alt="A photo of me" class="card-img ">
       </div>
     </div>
 
@@ -48,9 +62,11 @@
 
 
     <div class="row">
-      <div>About me section</div>
-      <div>
-        <p></p>Text with background, interests, contacts etc</p>
+      <div class="col-md-5">
+        <p>About me section</p>
+      </div>
+      <div class="col-md-7">
+        <p>Text with background, interests, contacts etc</p>
       </div>
     </div>
 

@@ -5,6 +5,10 @@
   background-color: black;
 }
 
+.col-md-12 .jumbotron{
+background-color: aqua;
+}
+
 .row{
   padding: 1%;
 }
@@ -22,7 +26,7 @@
 .jumbotron {
   padding: 2rem 1rem;
   margin-bottom: 2rem;
-  background-color: #5cc58b;
+  background-image: url("/images/photo.jpg");
   border-radius: 0.3rem;
 }
 

@@ -12,8 +12,8 @@
  h1{
      padding: 2rem 1rem;
  }
-.card{
-  padding: ;
+.card-img{
+  border-radius: 50%;
 }
 
 .jumbotron {
